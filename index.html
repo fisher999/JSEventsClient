@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Events Client</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <form id="eventForm">
+      <p>
+        <label for="start">Start date:</label>
+        <input type="date" id="startDateTime" name="eventStart" placeholder="yyyy-mm-dd"
+            min="2021-01-01" max="2022-01-01">
+      </p>
+      <p>
+        <label for="end">End date:</label>
+        <input type="date" id="endDateTime" name="eventEnd" placeholder="yyyy-mm-dd"
+            min="2021-01-01" max="2022-01-01">
+      </p>
+      <p>
+        <button type="button">Send</button>
+      </p>
+    </form>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
